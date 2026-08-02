@@ -1,4 +1,4 @@
-## E-commerce Data Analytics & AI Project
+## E-commerce Data Analytics & AI Decision-Support System
 
 An end-to-end analytics project based on real Wix order data from a small e-commerce business selling newborn gift boxes and individual baby products.
 
