@@ -1,0 +1,490 @@
+{
+  "metadata": {
+    "business_name": "[redacted for public repository]",
+    "business_description": "Small e-commerce business selling newborn gift boxes and individual baby products",
+    "ecommerce_platform": "Wix",
+    "currency": "ILS",
+    "data_access_policy": "Aggregated validated metrics only; no raw customer or transaction-level data is provided to the AI"
+  },
+  "overall": {
+    "total_orders": 1509,
+    "avg_order_value_index": 105.3
+  },
+  "revenue_by_year": [
+    {
+      "year": "2022",
+      "orders": 142,
+      "avg_items_per_order": 2.65,
+      "revenue_index": 29.7,
+      "aov_index": 98.8
+    },
+    {
+      "year": "2023",
+      "orders": 471,
+      "avg_items_per_order": 2.34,
+      "revenue_index": 100.0,
+      "aov_index": 100.0
+    },
+    {
+      "year": "2024",
+      "orders": 367,
+      "avg_items_per_order": 2.27,
+      "revenue_index": 84.1,
+      "aov_index": 108.1
+    },
+    {
+      "year": "2025",
+      "orders": 332,
+      "avg_items_per_order": 2.23,
+      "revenue_index": 77.9,
+      "aov_index": 110.6
+    },
+    {
+      "year": "2026",
+      "orders": 197,
+      "avg_items_per_order": 1.93,
+      "revenue_index": 45.3,
+      "aov_index": 108.4
+    }
+  ],
+  "new_vs_returning_by_year": [
+    {
+      "year": "2022",
+      "customer_type": "New",
+      "orders": 135,
+      "revenue_index": 28.7
+    },
+    {
+      "year": "2022",
+      "customer_type": "Returning",
+      "orders": 7,
+      "revenue_index": 1.0
+    },
+    {
+      "year": "2023",
+      "customer_type": "New",
+      "orders": 413,
+      "revenue_index": 88.5
+    },
+    {
+      "year": "2023",
+      "customer_type": "Returning",
+      "orders": 58,
+      "revenue_index": 11.5
+    },
+    {
+      "year": "2024",
+      "customer_type": "New",
+      "orders": 312,
+      "revenue_index": 71.2
+    },
+    {
+      "year": "2024",
+      "customer_type": "Returning",
+      "orders": 55,
+      "revenue_index": 12.9
+    },
+    {
+      "year": "2025",
+      "customer_type": "New",
+      "orders": 270,
+      "revenue_index": 62.8
+    },
+    {
+      "year": "2025",
+      "customer_type": "Returning",
+      "orders": 62,
+      "revenue_index": 15.1
+    },
+    {
+      "year": "2026",
+      "customer_type": "New",
+      "orders": 169,
+      "revenue_index": 39.0
+    },
+    {
+      "year": "2026",
+      "customer_type": "Returning",
+      "orders": 28,
+      "revenue_index": 6.3
+    }
+  ],
+  "repeat_rate_by_year": [
+    {
+      "year": 2022,
+      "customers_this_year": 133,
+      "repeat_customers_this_year": 0,
+      "repeat_customer_rate_pct": 0.0
+    },
+    {
+      "year": 2023,
+      "customers_this_year": 427,
+      "repeat_customers_this_year": 16,
+      "repeat_customer_rate_pct": 3.7
+    },
+    {
+      "year": 2024,
+      "customers_this_year": 328,
+      "repeat_customers_this_year": 20,
+      "repeat_customer_rate_pct": 6.1
+    },
+    {
+      "year": 2025,
+      "customers_this_year": 303,
+      "repeat_customers_this_year": 33,
+      "repeat_customer_rate_pct": 10.9
+    },
+    {
+      "year": 2026,
+      "customers_this_year": 189,
+      "repeat_customers_this_year": 20,
+      "repeat_customer_rate_pct": 10.6
+    }
+  ],
+  "top_products": [
+    {
+      "canonical_name": "Exclusive Royal blanket",
+      "units_sold": 337,
+      "orders_containing_it": 320,
+      "revenue_index": 100.0
+    },
+    {
+      "canonical_name": "Baby bear towel",
+      "units_sold": 181,
+      "orders_containing_it": 166,
+      "revenue_index": 47.7
+    },
+    {
+      "canonical_name": "Pacifier holder",
+      "units_sold": 269,
+      "orders_containing_it": 250,
+      "revenue_index": 35.8
+    },
+    {
+      "canonical_name": "Knitted blankt",
+      "units_sold": 133,
+      "orders_containing_it": 121,
+      "revenue_index": 31.6
+    },
+    {
+      "canonical_name": "Ari's special box",
+      "units_sold": 35,
+      "orders_containing_it": 35,
+      "revenue_index": 29.3
+    },
+    {
+      "canonical_name": "Royal knitted blanket",
+      "units_sold": 159,
+      "orders_containing_it": 140,
+      "revenue_index": 28.6
+    },
+    {
+      "canonical_name": "Beary tetra blanket",
+      "units_sold": 171,
+      "orders_containing_it": 162,
+      "revenue_index": 26.8
+    },
+    {
+      "canonical_name": "GIGI exclusive box",
+      "units_sold": 26,
+      "orders_containing_it": 25,
+      "revenue_index": 19.4
+    },
+    {
+      "canonical_name": "New SOL box",
+      "units_sold": 28,
+      "orders_containing_it": 28,
+      "revenue_index": 18.8
+    },
+    {
+      "canonical_name": "Beary set",
+      "units_sold": 78,
+      "orders_containing_it": 77,
+      "revenue_index": 17.0
+    }
+  ],
+  "top_cross_sell_pairs": [
+    {
+      "product_a": "Baby bear towel",
+      "product_b": "Exclusive Royal blanket",
+      "times_bought_together": 79
+    },
+    {
+      "product_a": "Exclusive Royal blanket",
+      "product_b": "Pacifier holder",
+      "times_bought_together": 62
+    },
+    {
+      "product_a": "Exclusive Royal blanket",
+      "product_b": "My new Bunny",
+      "times_bought_together": 47
+    },
+    {
+      "product_a": "Beary tetra blanket",
+      "product_b": "Exclusive Royal blanket",
+      "times_bought_together": 42
+    },
+    {
+      "product_a": "Beary tetra blanket",
+      "product_b": "Knitted rattle & teether",
+      "times_bought_together": 42
+    },
+    {
+      "product_a": "Knitted rattle & teether",
+      "product_b": "Royal knitted blanket",
+      "times_bought_together": 41
+    },
+    {
+      "product_a": "Baby bear towel",
+      "product_b": "Pacifier holder",
+      "times_bought_together": 39
+    },
+    {
+      "product_a": "Knitted rattle & teether",
+      "product_b": "Pacifier holder",
+      "times_bought_together": 39
+    },
+    {
+      "product_a": "Beary set",
+      "product_b": "Beary tetra blanket",
+      "times_bought_together": 36
+    },
+    {
+      "product_a": "Beary tetra blanket",
+      "product_b": "Pacifier holder",
+      "times_bought_together": 36
+    }
+  ],
+  "bundle_vs_individual_by_year": [
+    {
+      "year": 2022,
+      "bundle_share_pct": 41.4,
+      "classification_coverage_pct": 98.7,
+      "bundle_share_pct_basis": "Bundle / (Bundle + Individual); Gift Voucher revenue is intentionally excluded"
+    },
+    {
+      "year": 2023,
+      "bundle_share_pct": 38.6,
+      "classification_coverage_pct": 98.4,
+      "bundle_share_pct_basis": "Bundle / (Bundle + Individual); Gift Voucher revenue is intentionally excluded"
+    },
+    {
+      "year": 2024,
+      "bundle_share_pct": 38.7,
+      "classification_coverage_pct": 100.0,
+      "bundle_share_pct_basis": "Bundle / (Bundle + Individual); Gift Voucher revenue is intentionally excluded"
+    },
+    {
+      "year": 2025,
+      "bundle_share_pct": 33.7,
+      "classification_coverage_pct": 99.7,
+      "bundle_share_pct_basis": "Bundle / (Bundle + Individual); Gift Voucher revenue is intentionally excluded"
+    },
+    {
+      "year": 2026,
+      "bundle_share_pct": 34.4,
+      "classification_coverage_pct": 100.0,
+      "bundle_share_pct_basis": "Bundle / (Bundle + Individual); Gift Voucher revenue is intentionally excluded"
+    }
+  ],
+  "cancellation_rate_pct": 2.1,
+  "known_limitations": [
+    "No product cost data — revenue only, profitability/margin cannot be calculated",
+    "No discount field in the data — discount impact on revenue cannot be assessed",
+    "No website traffic/conversion data — cannot assess marketing funnel performance",
+    "2022 and 2026 are partial years (5 and 7 months respectively) and should not be directly compared to full years",
+    "Repeat customer rate uses email as the customer identity key — customers using multiple emails may be undercounted",
+    "Box vs Individual classification is inferred from product name keywords and price patterns, not confirmed against the source catalog",
+    "Some products with zero revenue in 2025 were removed from the store or unavailable. Zero revenue must not be interpreted as reduced demand without product availability/catalog-status data.",
+    "Frequently purchased together results are raw co-purchase counts; support, confidence, and lift were not calculated.",
+    "Gift Voucher revenue is intentionally excluded from the Bundle vs Individual comparison because it is neither a physical bundle nor an individual product."
+  ],
+  "metric_definitions": {
+    "repeat_customer_rate_pct": "Repeat customers divided by customers in the same year, expressed as percentage points.",
+    "bundle_vs_individual": {
+      "classification_method": "Project rules based on product-name keywords (such as 'box') and price patterns; not verified against the Wix source catalog.",
+      "bundle_share_pct": "Bundle revenue divided by physical-product classified revenue only (Bundle + Individual); Gift Voucher revenue is excluded.",
+      "Gift_Voucher": "Revenue from gift voucher purchases, intentionally excluded from the Bundle vs Individual comparison."
+    },
+    "top_cross_sell_pairs": "Raw number of orders in which both products appeared together; this is frequency, not association strength."
+  },
+  "validated_insight_facts": [
+    {
+      "fact_id": "F01_FULL_YEAR_SALES_ECONOMICS",
+      "category": "sales_performance",
+      "business_priority": 1,
+      "fact_statement": "Between the full years 2023 and 2025, the order-volume index decreased from 100.0 to 70.5 and the revenue index decreased from 100.0 to 77.9, while the AOV index increased from 100.0 to 110.6 and average items per order decreased from 2.34 to 2.23.",
+      "evidence": [
+        {
+          "metric": "2023 order-volume index",
+          "value": 100.0,
+          "display": "2023 order-volume index: 100.0"
+        },
+        {
+          "metric": "2025 order-volume index",
+          "value": 70.5,
+          "display": "2025 order-volume index: 70.5"
+        },
+        {
+          "metric": "2023 revenue index",
+          "value": 100.0,
+          "display": "2023 revenue index: 100.0"
+        },
+        {
+          "metric": "2025 revenue index",
+          "value": 77.9,
+          "display": "2025 revenue index: 77.9"
+        },
+        {
+          "metric": "2023 AOV index",
+          "value": 100.0,
+          "display": "2023 AOV index: 100.0"
+        },
+        {
+          "metric": "2025 AOV index",
+          "value": 110.6,
+          "display": "2025 AOV index: 110.6"
+        },
+        {
+          "metric": "2023 average items per order",
+          "value": 2.34,
+          "display": "2023 average items per order: 2.34"
+        },
+        {
+          "metric": "2025 average items per order",
+          "value": 2.23,
+          "display": "2025 average items per order: 2.23"
+        }
+      ],
+      "validated_change": {
+        "orders_change": -139,
+        "orders_change_pct": -29.5,
+        "revenue_change_pct": -22.1,
+        "aov_change_pct": 10.6,
+        "avg_items_per_order_change": -0.11
+      },
+      "interpretation_boundary": "The model may describe the simultaneous change in order volume and order value, but must not attribute it to pricing power, demand, inflation, product mix, or marketing without additional evidence.",
+      "allowed_action_scope": "Investigate changes in product mix and product prices, and monitor orders, revenue, AOV, and items per order together.",
+      "limitation": "The available metrics do not decompose the AOV change into price changes, product-mix changes, or other causes."
+    },
+    {
+      "fact_id": "F02_REPEAT_RATE_GROWTH",
+      "category": "customer_retention",
+      "business_priority": 2,
+      "fact_statement": "Across the full years 2023 to 2025, the repeat customer rate increased from 3.7% to 6.1% and then to 10.9%, a validated increase of 7.2 percentage points from 2023 to 2025.",
+      "evidence": [
+        {
+          "metric": "2023 repeat customer rate",
+          "value": 3.7,
+          "display": "2023 repeat customer rate: 3.7%"
+        },
+        {
+          "metric": "2024 repeat customer rate",
+          "value": 6.1,
+          "display": "2024 repeat customer rate: 6.1%"
+        },
+        {
+          "metric": "2025 repeat customer rate",
+          "value": 10.9,
+          "display": "2025 repeat customer rate: 10.9%"
+        },
+        {
+          "metric": "2023 to 2025 change",
+          "value": 7.2,
+          "display": "Change from 2023 to 2025: +7.2 percentage points"
+        }
+      ],
+      "interpretation_boundary": "The model may state that the measured repeat rate increased, but must not claim that loyalty programmes, retention campaigns, or customer satisfaction caused the increase.",
+      "allowed_action_scope": "Investigate repeat-purchase patterns and test a measurable post-purchase communication experiment without inventing target rates.",
+      "limitation": "Customer identity is based on email, so customers using multiple email addresses may be undercounted."
+    },
+    {
+      "fact_id": "F03_BUNDLE_SHARE_DECLINE",
+      "category": "product_mix",
+      "business_priority": 3,
+      "fact_statement": "Across the full years 2023 to 2025, box share of classified physical-product revenue changed from 38.6% to 38.7% and then to 33.7%, a decline of 4.9 percentage points from 2023 to 2025.",
+      "evidence": [
+        {
+          "metric": "2023 bundle share",
+          "value": 38.6,
+          "display": "2023 bundle share: 38.6%"
+        },
+        {
+          "metric": "2024 bundle share",
+          "value": 38.7,
+          "display": "2024 bundle share: 38.7%"
+        },
+        {
+          "metric": "2025 bundle share",
+          "value": 33.7,
+          "display": "2025 bundle share: 33.7%"
+        },
+        {
+          "metric": "2023 to 2025 change",
+          "value": -4.9,
+          "display": "Change from 2023 to 2025: -4.9 percentage points"
+        },
+        {
+          "metric": "Gift vouchers excluded",
+          "value": null,
+          "display": "Gift voucher revenue is excluded from this comparison in every year shown (a small share of total revenue, under 2% in most years)"
+        }
+      ],
+      "interpretation_boundary": "The model may describe a shift in the classified revenue mix, but must not claim reduced bundle demand because catalog availability and classification are not fully verified.",
+      "allowed_action_scope": "Review Wix catalog history and verify bundle classification, availability, and visibility before testing changes.",
+      "limitation": "Bundle classification is inferred from product-name keywords and price patterns; Gift Voucher revenue is intentionally excluded."
+    },
+    {
+      "fact_id": "F04_HERO_PRODUCT_CONCENTRATION",
+      "category": "product_performance",
+      "business_priority": 4,
+      "fact_statement": "Exclusive Royal Blanket is the highest-revenue product, with a revenue index of 100.0; the next-highest product (Baby Bear Towel) has a revenue index of 47.7. Exclusive Royal Blanket accounts for 11.7% of total historical revenue.",
+      "evidence": [
+        {
+          "metric": "Exclusive Royal Blanket revenue index",
+          "value": 100.0,
+          "display": "Exclusive Royal Blanket revenue index: 100.0"
+        },
+        {
+          "metric": "Baby Bear Towel revenue index",
+          "value": 47.7,
+          "display": "Baby Bear Towel revenue index: 47.7"
+        },
+        {
+          "metric": "Exclusive Royal Blanket share of total revenue",
+          "value": 11.7,
+          "display": "Share of total historical revenue: 11.7%"
+        }
+      ],
+      "interpretation_boundary": "The model may describe historical revenue concentration, but must not claim profitability, future demand, or brand dependence.",
+      "allowed_action_scope": "Monitor availability, visibility, and product-level performance over time; do not recommend expanding a product line without additional evidence.",
+      "limitation": "No cost, margin, inventory-availability, or website-view data is available."
+    },
+    {
+      "fact_id": "F05_TOP_COPURCHASE_PAIR",
+      "category": "co_purchase",
+      "business_priority": 5,
+      "fact_statement": "Baby bear towel and Exclusive Royal blanket are the most frequently co-purchased pair in the supplied ranking, appearing together in 79 orders.",
+      "evidence": [
+        {
+          "metric": "Top pair product A",
+          "value": "Baby bear towel",
+          "display": "Product A: Baby bear towel"
+        },
+        {
+          "metric": "Top pair product B",
+          "value": "Exclusive Royal blanket",
+          "display": "Product B: Exclusive Royal blanket"
+        },
+        {
+          "metric": "Times bought together",
+          "value": 79,
+          "display": "Orders containing both products: 79"
+        }
+      ],
+      "interpretation_boundary": "The model may call this a frequent co-purchase pattern, but must not describe it as proven cross-sell effectiveness, lift, confidence, or causality.",
+      "allowed_action_scope": "Propose a measured storefront placement experiment and track joint purchase rate and AOV before and after the test.",
+      "limitation": "Only raw co-purchase counts are available; support, confidence, and lift were not calculated."
+    }
+  ]
+}

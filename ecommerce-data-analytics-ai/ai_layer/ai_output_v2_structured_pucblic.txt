@@ -1,0 +1,54 @@
+### Insight 1: Increase in repeat customer rate
+**Finding:** The repeat customer rate percentage grew across the full years from 2023 to 2025. Specifically, the rate was 3.7% in 2023, 6.1% in 2024, and 10.9% in 2025, before registering 10.6% in the partial year 2026.
+**Evidence:** Field `repeat_rate_by_year` with values:
+- `2023`: `repeat_customer_rate_pct`: 3.7
+- `2024`: `repeat_customer_rate_pct`: 6.1
+- `2025`: `repeat_customer_rate_pct`: 10.9
+- `2026`: `repeat_customer_rate_pct`: 10.6
+**Interpretation:** This upward trajectory suggests that a growing share of customers returned to make purchases in subsequent years, though multiple explanations are possible, such as changes in customer retention efforts or shifts in the customer base.
+**Recommended action:** Review customer communication strategies or investigate what drove the retention changes between 2023 and 2025.
+**Data limitation:** The repeat customer rate uses email as the identity key; customers using multiple emails may be undercounted.
+
+### Insight 2: Shift in product revenue split between bundles and individuals
+**Finding:** The bundle share of physical product revenue decreased across the full years from 2022 to 2025, moving from 49.5% in 2022 and 50.0% in 2023 down to 43.7% in 2024 and 37.1% in 2025 (and 35.8% in the partial year 2026). Conversely, the individual share increased from 50.5% in 2022 and 50.0% in 2023 to 62.9% in 2025 and 64.2% in 2026. (Note: Gift Voucher revenue is excluded from the Bundle vs Individual comparison.)
+**Evidence:** Field `bundle_vs_individual_by_year` showing annual percentages for `bundle_share_of_physical_product_revenue_pct` and `individual_share_of_physical_product_revenue_pct`.
+**Interpretation:** This trend is consistent with a shift in customer purchasing preferences toward individual items relative to bundles over time, or alternatively, changes in product promotion.
+**Recommended action:** Review catalog positioning and investigate whether individual items or bundles receive different visibility on the storefront.
+**Data limitation:** Bundle vs Individual classification is inferred from product-name keywords and price patterns, not confirmed against the source catalog. Gift Voucher revenue is intentionally excluded from the Bundle vs Individual comparison because it is neither a physical bundle nor an individual product.
+
+### Insight 3: Leading product revenue contribution
+**Finding:** "Exclusive Royal blanket" generated the highest revenue index of 100.0, with 337 units sold across 320 orders containing it. The next highest products listed by revenue index are "Baby bear towel" at 47.7 and "Pacifier holder" at 35.8.
+**Evidence:** Field `top_products` entries:
+- `canonical_name`: "Exclusive Royal blanket", `revenue_index`: 100.0, `units_sold`: 337, `orders_containing_it`: 320
+- `canonical_name`: "Baby bear towel", `revenue_index`: 47.7, `units_sold`: 181, `orders_containing_it`: 166
+- `canonical_name`: "Pacifier holder", `revenue_index`: 35.8, `units_sold`: 269, `orders_containing_it`: 250
+**Interpretation:** "Exclusive Royal blanket" accounts for the highest indexed product revenue in the dataset, suggesting it is a major revenue contributor among individual items, though product availability data is not included.
+**Recommended action:** Investigate inventory and promotional focus on top-indexed items to understand their performance drivers.
+**Data limitation:** Product availability and catalog-status data are not included, so the model must not infer demand decline from missing or zero product sales.
+
+### Insight 4: Co-occurrence of product pairs in orders
+**Finding:** The most frequent product co-occurrence in orders is between "Baby bear towel" and "Exclusive Royal blanket", appearing together 79 times. This is followed by "Exclusive Royal blanket" and "Pacifier holder", which appear together 62 times.
+**Evidence:** Field `top_cross_sell_pairs`:
+- `product_a`: "Baby bear towel", `product_b`: "Exclusive Royal blanket", `times_bought_together`: 79
+- `product_a`: "Exclusive Royal blanket", `product_b`: "Pacifier holder", `times_bought_together`: 62
+**Interpretation:** These counts show that certain items frequently co-occur within the same orders, which is consistent with customers buying them together.
+**Recommended action:** Review how these frequently co-occurring items are displayed or grouped on the storefront.
+**Data limitation:** Frequently purchased together counts show co-occurrence only; support, confidence and lift were not calculated. Do not claim that a recommendation will increase sales, and do not describe a pair as causal.
+
+### Insight 5: Average items per order variation across years
+**Finding:** The average items per order was 2.65 in 2022, 2.34 in 2023, 2.27 in 2024, 2.23 in 2025, and 1.93 in 2026.
+**Evidence:** Field `revenue_by_year` values for `avg_items_per_order`:
+- `2022`: 2.65
+- `2023`: 2.34
+- `2024`: 2.27
+- `2025`: 2.23
+- `2026`: 1.93
+**Interpretation:** The average number of items included per order declined gradually each year from 2022 through 2026, which may reflect changes in cart composition or product selection patterns.
+**Recommended action:** Review order composition trends to see if multi-item orders are decreasing across specific categories.
+**Data limitation:** 2022 and 2026 are partial years and should not be directly compared with full years and should not be annualized.
+
+### Overall limitations
+- No product cost data — profitability and margin cannot be calculated.
+- No website traffic or conversion data — marketing funnel performance cannot be assessed.
+- All absolute revenue and order-value figures were replaced with indices or percentages for privacy.
+- 2022 and 2026 are partial years and should not be directly compared with full years.

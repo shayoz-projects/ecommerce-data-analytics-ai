@@ -1,0 +1,49 @@
+Based on the anonymized dataset provided for the boutique baby-gift e-commerce business, here is a structured analysis of the key trends, strengths, and areas of strategic opportunity.
+
+---
+
+### 1. Revenue & Order Dynamics
+* **Peak and Plateaus:** Following a strong growth phase into 2023 (chosen as the index baseline of 100), total revenue saw a downward correction in 2024 (84.1) and 2025 (77.9). 
+* **Resilient AOV (Average Order Value):** Even though overall revenue and order volume dropped post-2023, the AOV index has steadily climbed year-over-year—moving from 98.7 in 2022 to **110.6 in 2025** (and holding strong at 108.4 annualized in 2026). This indicates that customers are spending more per transaction despite fewer total orders coming in.
+* **Basket Size Shrinkage:** Interestingly, while AOV increased, the *average items per order* has slowly declined from 2.65 (2022) to 2.23 (2025), and 1.93 (2026). This divergence implies that customers are buying fewer items overall, but those items carry a higher individual price point or premium positioning.
+* **Healthy Order Fulfillment:** The cancellation rate sits very low at **2.1%**, indicating stable fulfillment and low buyer remorse/fraud.
+
+---
+
+### 2. Customer Retention & Loyalty
+* **The "One-and-Done" Nature of Baby Gifts:** As expected for a baby-gift boutique, the vast majority of orders historically came from new customers (ranging from 81% to 96% share of orders/revenue). 
+* **Positive Improvement in Repeat Rates:** Despite the inherent churn of the niche, the brand has successfully improved its retention. The repeat customer rate has tripled from **3.7% in 2023** to **10.9% in 2025**. 
+* **Strategic Takeaway:** While new customer acquisition drives the bulk of top-line revenue, the growing base of repeat buyers (reaching nearly ~19% of revenue share by 2025) shows that loyalty programs, remarketing, or quality satisfaction are successfully turning gift-givers into returning patrons.
+
+---
+
+### 3. Product Performance & Merchandising
+* **The Flagship Product Dominates:** The **"Exclusive Royal blanket"** is a massive outlier, taking the #1 spot in revenue (indexed at 100) with 337 units sold and appearing in 320 distinct orders. It serves as the primary anchor product for the brand.
+* **High-Volume vs. High-Revenue Split:** 
+  * The *Exclusive Royal blanket* leads in revenue.
+  * The *Pacifier holder* drives high unit volume (269 units sold) but lower relative revenue (index 35.8), making it an ideal low-cost impulse add-on.
+* **Curated Boxes Underperforming vs. Standalones:** Curated gift boxes (e.g., *Ari's special box*, *GIGI exclusive box*, *New SOL box*) appear lower down in the top products list relative to individual items, suggesting customers prefer custom-building their gifts or purchasing specific anchor items (blankets and towels) over pre-packaged bundles.
+
+---
+
+### 4. Shifts in Bundles vs. Individual Products
+* **A Significant Shift in Buying Behavior:** There has been a clear shift in how customers purchase physical products over time:
+  * **2022–2023:** Bundles and individual products split physical revenue right down the middle (**50/50**).
+  * **2024–2026:** Individual products have taken over the majority share, climbing to **64.2%** of physical product revenue in 2026, while bundles dropped to 35.8%.
+* **Strategic Takeaway:** Customers are increasingly opting to un-bundle or hand-select individual items rather than buying pre-configured packages. The brand should consider leaning into a "build-your-own-gift-box" interface on their website to match this preference.
+
+---
+
+### 5. Cross-Sell & Bundling Opportunities
+The top cross-sell pairs highlight natural synergies that can be actively marketed on product pages or via automated cart recommendations:
+* **The Ultimate Combo:** *Baby bear towel* + *Exclusive Royal blanket* (bought together 79 times).
+* **Blanket + Accessory Pairs:** The *Exclusive Royal blanket* frequently pairs well with *Pacifier holders* (62 times) and *My new Bunny* (47 times).
+* **Teething & Comfort:** *Knitted rattle & teether* pairs consistently across multiple blankets (*Royal knitted*, *Beary tetra*), showing a strong demand for pairing sensory toys with comfort items.
+
+---
+
+### Summary Recommendations
+1. **Capitalize on the Flagship:** Ensure the *Exclusive Royal blanket* remains front-and-center in marketing, as it acts as the primary gateway for the brand.
+2. **Promote "Build-Your-Own" Boxes:** Since pre-made bundle revenue share is declining in favor of individual items, updating the e-commerce UX to allow seamless custom gift-box creation could capture higher AOV.
+3. **Automate Cross-Sells:** Implement native cart recommendations using the top-performing pairs (e.g., suggesting a *Pacifier holder* or *Baby bear towel* whenever a customer views or adds an *Exclusive Royal blanket*).
+4. **Nurture the Growing Repeat Audience:** With repeat customer rates crossing the 10% threshold in recent years, introducing automated email flows for milestone baby events or targeted retention campaigns can compound this positive trend.
